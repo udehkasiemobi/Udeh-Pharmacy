@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Udeh Pharmacy</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<button class="menu-button" onclick="toggleMenu()">☰</button>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <header>
+        <div class="logo">
+            Udeh <span>Pharmacy</span>
+        </div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#products">Products</a>
+            <a href="#services">Services</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <p class="label">WELCOME TO UDEH PHARMACY</p>
+
+           <h1>
+    Your Health.<br>
+    <span>Our Priority.</span>
+</h1>
+
+            <p class="hero-description">
+                Quality pharmacy products and trusted healthcare
+                services for you and your family.
+            </p>
+
+            <div class="buttons">
+                <a href="#products" class="btn">Explore Products</a>
+                <a href="#contact" class="btn-outline">Contact Us</a>
+            </div>
+
+        </div>
+
+
+        <div class="hero-image">
+
+            <img
+                src="https://images.pexels.com/photos/5207102/pexels-photo-5207102.jpeg"
+                alt="Pharmacist helping a customer"
+            >
+
+        </div>
+
+    </section>
+
+
+    <!-- TRUST -->
+    <section class="trust">
+
+        <div class="trust-item">
+            <span>✓</span>
+            <div>
+                <h3>Quality Products</h3>
+                <p>Healthcare products you can trust.</p>
+            </div>
+        </div>
+
+        <div class="trust-item">
+            <span>♥</span>
+            <div>
+                <h3>Friendly Service</h3>
+                <p>Care and support for every customer.</p>
+            </div>
+        </div>
+
+        <div class="trust-item">
+            <span>★</span>
+            <div>
+                <h3>Customer Care</h3>
+                <p>Your wellbeing matters to us.</p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- PRODUCTS -->
+  <!-- PRODUCTS -->
+<section id="products" class="section">
+
+    <p class="label">OUR PRODUCTS</p>
+
+    <h2>Healthcare Essentials</h2>
+
+    <p class="section-description">
+        Discover everyday health, wellness, and personal care products
+        available at Udeh Pharmacy.
+    </p>
+
+
+    <div class="product-grid">
+
+        <div class="product-card">
+            <div class="product-icon">💊</div>
+
+            <h3>Medicines</h3>
+
+            <p>
+                Everyday pharmacy essentials and general health products.
+            </p>
+
+            <button onclick="showProductInfo('Medicines')">Learn More →</button>
+        </div>
+
+
+        <div class="product-card">
+            <div class="product-icon">🌿</div>
+
+            <h3>Vitamins & Wellness</h3>
+
+            <p>
+                Vitamins and general wellness products for everyday care.
+            </p>
+
+            <button onclick="showProductInfo('Vitamins & Wellness')">Learn More →</button>
+        </div>
+
+
+        <div class="product-card">
+            <div class="product-icon">🧴</div>
+
+            <h3>Personal Care</h3>
+
+            <p>
+                Hygiene, skincare, and personal care essentials.
+            </p>
+
+            <button onclick="showProductInfo('Personal Care')">Learn More →</button>
+        </div>
+
+
+        <div class="product-card">
+            <div class="product-icon">👶</div>
+
+            <h3>Baby Care</h3>
+
+            <p>
+                Everyday essentials for babies and young families.
+            </p>
+
+            <button onclick="showProductInfo('Baby Care')">Learn More →</button>
+        </div>
+
+    </div>
+
+</section>
+
+    </section>
+
+
+    <!-- SERVICES -->
+    <section id="services" class="dark-section">
+
+        <div class="services-content">
+
+            <p class="label">OUR SERVICES</p>
+
+            <h2>More Than Just a Pharmacy</h2>
+
+            <p>
+                We are committed to providing convenient,
+                reliable healthcare support for our customers.
+            </p>
+
+        </div>
+
+
+        <div class="service-list">
+
+            <p>✓ Prescription Support</p>
+            <p>✓ Health Information</p>
+            <p>✓ Pharmacy Consultation</p>
+            <p>✓ Product Pickup</p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+    <section id="about" class="section about">
+
+        <p class="label">ABOUT US</p>
+
+        <h2>Welcome to Udeh Pharmacy</h2>
+
+        <p class="section-description">
+            We believe everyone deserves access to quality pharmacy
+            products and friendly healthcare support.
+        </p>
+
+    </section>
+
+
+    <!-- CONTACT -->
+  <!-- CONTACT -->
+<section id="contact" class="contact">
+
+    <p class="label">GET IN TOUCH</p>
+
+    <h2>We're Here to Help</h2>
+
+    <p class="contact-intro">
+        Have a question or need help? Send us a message and
+        we'll be happy to hear from you.
+    </p>
+
+    <div class="contact-grid">
+
+        <div class="contact-card">
+            <div class="contact-icon">📍</div>
+            <h3>Visit Us</h3>
+            <p>Udeh Pharmacy<br>Your City, Nigeria</p>
+        </div>
+
+        <div class="contact-card">
+            <div class="contact-icon">📞</div>
+            <h3>Call Us</h3>
+            <p>+234 800 000 0000</p>
+        </div>
+
+        <div class="contact-card">
+            <div class="contact-icon">🕒</div>
+            <h3>Opening Hours</h3>
+            <p>Monday – Saturday<br>8:00 AM – 8:00 PM</p>
+        </div>
+
+    </div>
+
+
+    <div class="contact-form">
+
+        <h3>Send Us a Message</h3>
+
+        <form onsubmit="sendMessage(event)">
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Your Name"
+                required
+            >
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Your Email"
+                required
+            >
+
+            <textarea
+                id="message"
+                placeholder="How can we help?"
+                rows="5"
+                required
+            ></textarea>
+
+            <button type="submit">
+                Send Message
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>
+            © 2026 Udeh Pharmacy. All rights reserved.
+        </p>
+
+    </footer>
+    
+<!-- PRODUCT POPUP -->
+
+<div id="productModal" class="product-modal">
+
+    <div class="product-modal-content">
+
+        <button class="modal-close" onclick="closeProductInfo()">
+            ×
+        </button>
+
+        <div id="modalIcon" class="modal-icon">💊</div>
+
+        <h2 id="modalTitle">Medicines</h2>
+
+        <p id="modalDescription">
+            Product information will appear here.
+        </p>
+
+        <button class="modal-contact" onclick="contactPharmacy()">
+            Contact Pharmacy
+        </button>
+
+    </div>
+
+</div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
